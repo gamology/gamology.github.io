@@ -1,2 +1,2 @@
-# gamology.github.io
-Gamology website
+# gamology.dk
+Just make games.
