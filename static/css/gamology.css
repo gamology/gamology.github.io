@@ -1,0 +1,63 @@
+* {
+    font-family: Poppins, Arial;
+    color: white;
+}
+
+html {
+    background-color: #40328A;
+    min-width: 390px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img {
+    background: white;
+    padding: 30px;
+}
+
+img.logo {
+    max-width: 15%;
+    min-width: 150px;
+    display: block;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.title {
+    min-width: 300px;
+}
+
+@media all and (min-width: 1001px) {
+  .vertically-aligned {
+    display: flex;
+    align-items: center
+  }
+}
+
+@media all and (max-width: 1000px) {
+  main {
+    width: 95%;
+  }
+
+  .vertically-aligned {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vertically-aligned > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+}
+
+span.huge {
+    font-size: 72px;
+    padding: 5%;
+}
