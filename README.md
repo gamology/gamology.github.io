@@ -1,2 +1,3 @@
 # gamology.dk
-Just make games.
+
+The site https://gamology.dk runs on.
