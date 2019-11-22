@@ -1,0 +1,3 @@
+name: Logs for Netlify
+
+uses: bdougie/loglify@v1.0.0
